@@ -1,3 +1,8 @@
+DESTDIR     =
+PREFIX      =/usr/local
+all:
+clean:
+install:
 ## -- license --
 ifneq ($(PREFIX),)
 install: install-license
